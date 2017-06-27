@@ -1,0 +1,694 @@
+@import "palette"
+
+.hero
+  width: 85%
+  margin: 0 auto
+  font-family: 'Raleway', Tacoma, sans-serif
+  background-image: url('../../../wp-content/uploads/2017/06/joe_simon_slider.jpg')
+  background-size: cover
+  min-height: 80vh
+
+  display: flex
+  flex-direction: row
+  justify-content: flex-end
+
+  .headlineCTA
+    width: 60%
+
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+    .headline
+      width: 80%
+      margin: 0 auto 10px
+
+      p
+        font-size: 3.2rem
+        text-align: right
+        font-weight: 300
+
+    .info
+      width: 80%
+      margin: 0 auto 20px
+
+      display: flex
+      flex-direction: row
+      justify-content: flex-end
+
+      p
+        font-size: 1.2rem
+        width: 70%
+        text-align: justify
+
+        a
+
+
+    .hero-cta-wrap
+      width: 80%
+      margin: 0 auto
+
+      display: flex
+      flex-direction: row
+      justify-content: flex-end
+
+      a.hero-cta
+        height: 60px
+        width: 300px
+        background-color: $primary-color
+        border: 2px solid $black
+        transition: 0.2s
+
+        .btn
+          height: 100%
+          text-align: center
+          line-height: 100%
+          color: $white
+          font-weight: 400
+          font-size: 1.2rem
+
+          display: flex
+          flex-direction: column
+          justify-content: center
+
+          p
+            letter-spacing: 4px
+            margin: 0
+            line-height: 100%
+            transition: 0.2s
+
+.divider
+  width: 50%
+  margin: 60px auto 100px
+
+  hr
+    border: 1px solid $primary-color
+
+.struggles
+  font-family: 'Raleway', Verdana, sans-serif
+  margin-bottom: 100px
+
+  .struggles-col-wrap
+    width: 85%
+    margin: 0 auto
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+
+
+    .col
+      width: 30%
+      padding: 10px 10px 0
+      transition: 0.2s
+
+      display: flex
+      flex-direction: column
+      justify-content: flex-start
+
+      div
+        display: flex
+        flex-direction: row
+        justify-content: center
+
+        margin-bottom: 20px
+
+        i
+          color: $secondary-color
+
+      .heading
+
+        p
+          margin: 0
+          font-size: 1.3rem
+          font-family: 'Lato', Verdana, sans-serif
+          text-align: center
+
+      .info
+        font-family: 'Lato', Verdana, sans-serif
+        text-align: center
+
+        p
+
+.homepage-video
+  background: linear-gradient(rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.35)), url('../../../wp-content/uploads/2017/06/handshake.jpg')
+  background-size: cover
+  background-position: center
+  height: 400px
+  font-family: 'Raleway', Verdana, sans-serif
+
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+
+  .heading
+    margin-top: 45px
+    margin-bottom: 0
+    text-align: center
+    font-size: 3.7rem
+    color: $white
+    line-height: 100%
+
+  .details
+    color: $white
+    text-align: center
+
+
+
+  .play-btn
+    display: flex
+    flex-direction: row
+    justify-content: center
+
+    img
+      align-self: center
+      height: 200px
+      transition: 0.2s
+
+    img:hover
+      height: 180px
+      transition: 0.2s
+
+.call-email
+  width: 50%
+  margin: 60px auto
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+
+  .schedule-call
+    width: 80%
+    margin: 0 auto
+
+    display: flex
+    flex-direction: row
+    justify-content: center
+
+    a.hero-cta
+      height: 60px
+      width: 300px
+      background-color: $primary-color
+      border: 2px solid $black
+      transition: 0.2s
+
+      .btn
+        height: 100%
+        text-align: center
+        line-height: 100%
+        color: $white
+        font-weight: 400
+        font-size: 1.2rem
+
+        display: flex
+        flex-direction: column
+        justify-content: center
+
+        p
+          letter-spacing: 4px
+          margin: 0
+          line-height: 100%
+          transition: 0.2s
+
+  .email
+    width: 80%
+    margin: 0 auto
+
+    display: flex
+    flex-direction: row
+    justify-content: center
+
+    a.hero-cta
+      height: 60px
+      width: 300px
+      background-color: $success-color
+      border: 2px solid $success-color
+      transition: 0.2s
+
+      .btn
+        height: 100%
+        text-align: center
+        line-height: 100%
+        color: $white
+        font-weight: 400
+        font-size: 1.2rem
+
+        display: flex
+        flex-direction: column
+        justify-content: center
+
+        p
+          letter-spacing: 4px
+          margin: 0
+          line-height: 100%
+          transition: 0.2s
+
+.podcast-grid
+  background-color: $medium-gray
+  padding-bottom: 30px
+
+  .featured
+    text-align: center
+    font-family: 'Raleway', sans-serif
+    font-weight: 400
+    font-size: 2rem
+    padding-top: 20px
+
+  .grid-wrap
+    display: flex
+    flex-direction: row
+    justify-content: center
+    flex-wrap: wrap
+
+    a.podcast
+      width: 30%
+      max-width: 430px
+      margin: 10px 15px
+
+      .podcast-wrap
+        padding: 10px
+        border: 1px solid black
+        height: 100%
+        background-color: $white
+
+        img
+
+        .pod-title
+          font-family: 'Raleway', sans-serif
+          font-weight: 400
+          font-size: 1.3rem
+          text-align: center
+
+        .pod-desc
+          font-family: 'Lato', sans-serif
+
+// timeline from my github
+.process
+  background: url('../../../wp-content/uploads/2017/06/3stepbground.jpg')
+  background-size: cover
+  padding-bottom: 30px
+  font-family: 'Lato', Verdana, sans-serif
+
+  .heading
+    padding-top: 40px
+    margin-bottom: 40px
+    color: $white
+    text-align: center
+    font-size: 2.6rem
+
+    span
+      text-transform: capitalize
+
+.process ul li
+  list-style-type: none
+  position: relative
+  width: 6px
+  margin: 0 auto
+  padding-top: 50px
+  background: $white
+
+
+.process ul li::after
+  content: ''
+  position: absolute
+  left: 50%
+  bottom: 0
+  transform: translateX(-50%)
+  width: 30px
+  height: 30px
+  border-radius: 50%
+  background: inherit
+
+
+.process ul li div
+  position: relative
+  bottom: 0
+  width: 400px
+  padding: 25px
+  background: $white
+  color: #333
+
+  .title
+    font-weight: 700
+    font-size: 1.3rem
+    font-family: 'Raleway', sans-serif
+
+  .desc
+
+
+.process ul li div::before
+  content: ''
+  position: absolute
+  bottom: 7px
+  width: 0
+  height: 0
+  border-style: solid
+
+
+.process ul li:nth-child(even) div
+  left: 45px
+
+
+.process ul li:nth-child(even) div::before
+  left: -15px
+  border-width: 8px 16px 8px 0
+  border-color: transparent $white transparent transparent
+
+
+.process ul li:nth-child(odd) div
+  left: -490px
+
+
+.process ul li:nth-child(odd) div::before
+  right: -15px
+  border-width: 8px 0 8px 16px
+  border-color: transparent transparent transparent $white
+
+.process ul li::after
+  background: $white
+  transition: background .5s ease-in-out
+
+
+.process ul li.in-view::after
+  background: $white
+
+
+.process ul li div
+  visibility: hidden
+  opacity: 0
+  transition: all .5s ease-in-out
+
+
+.process ul li:nth-child(even) div
+  transform: translate3d(200px,0,0)
+
+
+.process ul li:nth-child(odd) div
+  transform: translate3d(-200px,0,0)
+
+
+.process ul li.in-view div
+  transform: none
+  visibility: visible
+  opacity: 1
+
+// ---------------- ----------//
+
+
+.call-podcast
+  width: 50%
+  margin: 80px auto
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+
+  .podcast
+    width: 80%
+    margin: 0 auto
+
+    display: flex
+    flex-direction: row
+    justify-content: center
+
+    a.hero-cta
+      height: 60px
+      width: 300px
+      // background-color: $primary-color
+      // border: 2px solid $black
+      background-color: $success-color
+      border: 2px solid $success-color
+      transition: 0.2s
+
+      .btn
+        height: 100%
+        text-align: center
+        line-height: 100%
+        color: $white
+        font-weight: 400
+        font-size: 1.2rem
+
+        display: flex
+        flex-direction: column
+        justify-content: center
+
+        p
+          letter-spacing: 4px
+          margin: 0
+          line-height: 100%
+          transition: 0.2s
+
+  .schedule-call
+    width: 80%
+    margin: 0 auto
+
+    display: flex
+    flex-direction: row
+    justify-content: center
+
+    a.hero-cta
+      height: 60px
+      width: 300px
+      // background-color: $success-color
+      // border: 2px solid $success-color
+      background-color: $primary-color
+      border: 2px solid $black
+      transition: 0.2s
+
+      .btn
+        height: 100%
+        text-align: center
+        line-height: 100%
+        color: $white
+        font-weight: 400
+        font-size: 1.2rem
+
+        display: flex
+        flex-direction: column
+        justify-content: center
+
+        p
+          letter-spacing: 4px
+          margin: 0
+          line-height: 100%
+          transition: 0.2s
+
+.joe-story
+  margin-bottom: 100px
+
+  .joe-story-wrap
+    width: 70%
+    min-width: 310px
+    margin: 30px auto
+
+    .heading
+      font-family: 'Raleway', Verdana, sans-serif
+      font-weight: 400
+      font-size: 2rem
+      text-align: center
+
+
+    .content
+      font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif
+
+      .fullContent
+
+        p
+          font-size: 1.2rem
+
+        .first
+
+        .dont-show
+          // color: $white
+
+
+      .showMore
+        color: $secondary-color
+        cursor: pointer
+        width: 140px
+
+      .showLess
+        color: $secondary-color
+        cursor: pointer
+        width: 140px
+
+.testimonials
+  height: 250px
+  background-color: $medium-gray
+
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+  .testimonials-wrap
+    width: 40%
+    margin: 0 auto
+    // border: 1px solid black
+
+    .single-testimonial
+      height: 150px
+      background-color: $white
+      font-family: 'Lato', Verdana, sans-serif
+
+      display: flex
+      flex-direction: row
+      justify-content: space-around
+
+
+      .thumb
+        width: 25%
+        color: $secondary-color
+
+        display: flex
+        flex-direction: column
+        justify-content: center
+
+        i
+          text-align: center
+          width: 100%
+
+      .details
+        color: $primary-color
+        width: 60%
+
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+
+        .desc
+          font-weight: 700
+
+        .title
+          font-style: italic
+
+.get-in-touch
+  height: 30vh
+  background-image: linear-gradient(rgba(36, 53, 116, 0.7),rgba(36, 53, 116, 0.7)), url('../../../wp-content/uploads/2017/06/oldphone.jpg')
+  background-size: cover
+  background-position: 0% 55%
+
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: center
+
+  .ready
+    width: 40%
+    min-width: 450px
+
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+    p:first-child
+      text-align: center
+      color: $white
+      font-family: 'Raleway', 'Helvetica Neue', sans-serif
+      font-weight: 400
+      font-size: 2.7rem
+
+    p:nth-child(2)
+      font-family: 'Lato', Verdana, sans-serif
+      color: $white
+      font-size: 1.2rem
+
+  .btn-wrap
+    width: 40%
+    min-width: 450px
+
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+    a.touch-cta
+      display: block
+      width: 300px
+      height: 60px
+      border: 1px solid
+      background: $white
+      margin: 0 auto
+      transition: 0.2s
+
+      .btn
+        height: 100%
+        display: flex
+        flex-direction: column
+        justify-content: center
+
+        p
+          letter-spacing: 4px
+          text-align: center
+          margin: 0
+          line-height: 100%
+          transition: 0.2s
+
+footer
+  background-color: #3d3d3d
+  height: 100px
+
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+
+  .links
+    width: 65%
+    margin: 0 auto 20px
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    font-family: 'Raleway', Verdana, sans-serif
+    font-weight: 400
+
+    .social
+
+      ul
+
+        li
+
+          a
+            color: $white
+            transition: 0.2s
+
+          a:hover, a:active
+            color: $secondary-color
+            transition: 0.2s
+
+    .quick
+
+      ul
+
+        li
+
+          a
+            color: $white
+            transition: 0.2s
+
+          a:hover, a:active
+            color: $secondary-color
+            transition: 0.2s
+
+  .credits
+
+    p
+      text-align: center
+      margin-bottom: 0
+      color: $white
+
+      a
+        color: $secondary-color
+
+
+// -------- for stickyNav ------
+.is-sticky
+  background-color: $light-gray
+
+.stickyNav
+  background-color: $light-gray
+
+
+// ---- for CTA hover ----------
+.btn-hover
+  background-color: $white
+  transition: 0.2s
+
+.btn-hover-p
+  color: $primary-color
+  letter-spacing: 0 !important
+  transition: 0.2s

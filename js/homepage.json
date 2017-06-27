@@ -1,0 +1,36 @@
+{
+  "testimonials": [
+    {
+      "title": "Local Doctor",
+      "desc": "Excepteur enim commodo eiusmod dolore officia quis commodo mollit cillum officia."
+    },
+    {
+      "title": "Area Businessman",
+      "desc": "Deserunt incididunt eiusmod magna laboris commodo consectetur labore sit deserunt deserunt dolore commodo laborum ad deserunt."
+    },
+    {
+      "title": "New York Owner",
+      "desc": "Aute id aute laborum veniam duis reprehenderit aute reprehenderit in aute incididunt nisi non ea deserunt ipsum."
+    }
+  ],
+  "podcasts": [
+    {
+      "title": "This is a podcast",
+      "desc": "Podcast 1. Minim cupidatat sint veniam ad Lorem cillum exercitation dolor aute irure.",
+      "link": "#",
+      "img": "./wp-content/uploads/2017/06/fake-pod.png"
+    },
+    {
+      "title": "Is this a podcast?",
+      "desc": "Podcast 3. Sunt eu incididunt ipsum nisi nostrud quis mollit ex minim adipisicing magna.",
+      "link": "#",
+      "img": "./wp-content/uploads/2017/06/fake-pod.png"
+    },
+    {
+      "title": "This too is a podcast",
+      "desc": "Podcast 2. Ex elit aliquip aliqua eiusmod commodo minim adipisicing nostrud fugiat eiusmod consequat excepteur ad magna culpa fugiats.",
+      "link": "#",
+      "img": "./wp-content/uploads/2017/06/fake-pod.png"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+@import "palette"
+
+.header
+  width: 100%
+
+  .topbar
+    background-color: $dark-gray
+    margin: 0 !important
+    min-width: 100% !important
+
+    .topmenu
+      width: 100%
+
+      li
+
+        a
+          color: $white
+
+  .navbar-logo
+    width: 90%
+    max-width: 1024px
+    margin: 20px auto 0
+
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+
+    .logo
+
+      img
+        width: 180px
+
+
+    .navigation
+      display: flex
+      flex-direction: column
+      justify-content: center
+
+      ul
+        font-size: 1.2rem
+        font-family: 'Lato', sans-serif
+        text-transform: uppercase
+
+        li
+
+          a
+
+
+    .nav-cta-wrap
+      width: 200px
+      // margin: 0 auto
+
+      display: flex
+      flex-direction: column
+      justify-content: center
+
+      a.nav-cta
+        height: 40px
+        width: 200px
+        background-color: $success-color
+        border: 2px solid $success-color
+        transition: 0.2s
+
+        .btn
+          height: 100%
+          text-align: center
+          line-height: 100%
+          color: $white
+          font-weight: 400
+          font-size: .8rem
+
+          display: flex
+          flex-direction: column
+          justify-content: center
+
+          p
+            letter-spacing: 4px
+            margin: 0
+            line-height: 100%
+            transition: 0.2s
